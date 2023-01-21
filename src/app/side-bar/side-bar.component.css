@@ -1,0 +1,27 @@
+
+nav{
+    background-color: rgb(21, 110, 145);
+    position: fixed;
+    top: px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: var(--tab-width);
+    height: 100%;
+    
+
+
+}
+ul{
+    float: left;
+    list-style-type: none;
+}
+ul li {
+    display: flexbox;
+    padding: 15px;
+}
+li a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
